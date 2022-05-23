@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <TodoListItem /> should render properly 1`] = `
+<div>
+  <li
+    class="list-group-item"
+  >
+    <p
+      class="mb-0 "
+    >
+      3
+      . 
+      To learn React
+    </p>
+    <button
+      class="btn btn-outline-danger btn-sm"
+    >
+      Delete
+    </button>
+  </li>
+</div>
+`;
