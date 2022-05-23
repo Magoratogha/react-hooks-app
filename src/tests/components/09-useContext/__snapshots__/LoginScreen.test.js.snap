@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <LoginScreen /> should render properly 1`] = `
+<div>
+  <h1>
+    LoginScreen
+  </h1>
+  <hr />
+  <button
+    class="btn btn-outline-dark"
+  >
+    Login
+  </button>
+</div>
+`;
