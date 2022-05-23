@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <TodoList /> should render properly 1`] = `
+<div>
+  <ul
+    class="list-group list-group-flush"
+  >
+    <li
+      class="list-group-item"
+    >
+      <p
+        class="mb-0 "
+      >
+        1
+        . 
+        To learn React
+      </p>
+      <button
+        class="btn btn-outline-danger btn-sm"
+      >
+        Delete
+      </button>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <p
+        class="mb-0 "
+      >
+        2
+        . 
+        To learn Mongo
+      </p>
+      <button
+        class="btn btn-outline-danger btn-sm"
+      >
+        Delete
+      </button>
+    </li>
+  </ul>
+</div>
+`;
