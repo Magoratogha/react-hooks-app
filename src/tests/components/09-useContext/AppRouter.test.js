@@ -1,8 +1,8 @@
 import { render } from "@testing-library/react";
-import HomeScreen from "../../../components/09-useContext/HomeScreen";
+import AppRouter from "../../../components/09-useContext/AppRouter";
 import { UserContext } from "../../../components/09-useContext/UserContext";
 
-describe('Test on <HomeScreen />', () => { 
+describe('Test on <AppRouter />', () => {
 
     const user = {
         name: 'Magora',
@@ -11,8 +11,8 @@ describe('Test on <HomeScreen />', () => {
 
     test('should render properly', () => {
         const { container } = render(
-            <UserContext.Provider value={{ user }}>
-                <HomeScreen />
+            <UserContext.Provider value={ user }>
+                <AppRouter />
             </UserContext.Provider>);
         expect(container).toMatchSnapshot();
     });

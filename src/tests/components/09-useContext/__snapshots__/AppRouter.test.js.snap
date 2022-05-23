@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <AppRouter /> should render properly 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        aria-current="page"
+        class="navbar-brand active"
+        href="/"
+      >
+        useContext
+      </a>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          class="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            class="nav-link active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="nav-link"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="nav-link"
+            href="/login"
+          >
+            Login
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="m-4"
+  >
+    <h1>
+      HomeScreen
+    </h1>
+    <hr />
+    <pre />
+  </div>
+</div>
+`;
