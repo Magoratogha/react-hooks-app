@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <RealExampleRef /> should render properly 1`] = `
+<div>
+  <h1>
+    RealExampleRef
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-12"
+    >
+      <button
+        class="btn btn-outline-dark mt-3"
+      >
+        Show/Hide
+      </button>
+    </div>
+  </div>
+</div>
+`;
